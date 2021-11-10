@@ -1,0 +1,19 @@
+.box{
+  display:grid;
+  font-size:18px;
+  grid-template-columns: 150px 150px 300px 150px 150px;
+  justify-content: center; 
+}
+.one, .two, .three,.four{
+  padding: 5px;
+  margin:5%;
+  text-align:center;
+  box-shadow: 1px 1px 5px #888888;
+  border-radius:5px;
+}
+.Score{
+  display: inline-block;
+  font-size: 38px;
+  text-align: center;
+
+}
